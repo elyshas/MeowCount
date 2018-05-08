@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Elysha Spector owns the rights to background image-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/meow_count_background4"
+    tools:context="com.example.android.meowcount.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--Layout for two Score Counts-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout">
+
+            <!--KYO LAYOUT (left side)-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/catName"
+                    android:text="@string/Cat1" />
+
+                <TextView
+                    style="@style/scores"
+                    android:id="@+id/kyo_score"
+                    android:text="0" />
+
+                <Button
+                    style="@style/increment1Buttons"
+                    android:onClick="addMeowForKyo"
+                    android:text="@string/Noise2" />
+
+                <Button
+                    style="@style/increment3Buttons"
+                    android:onClick="addPurrForKyo"
+                    android:text="@string/Noise3" />
+
+                <Button
+                    style="@style/decrementButtons"
+                    android:onClick="pointsReducedForKyo"
+                    android:text="@string/Noise4" />
+
+            <!--Kyo layout end-->
+            </LinearLayout>
+
+            <!--Centered Vertical Divider-->
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:background="#E1BEE7" />
+
+            <!--ALICE LAYOUT (right side)-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/catName"
+                    android:text="@string/Cat2" />
+
+                <TextView
+                    android:id="@+id/alice_score"
+                    style="@style/scores"
+                    android:text="0" />
+
+                <Button
+                    style="@style/increment1Buttons"
+                    android:onClick="addMeowForAlice"
+                    android:text="@string/Noise1" />
+
+                <Button
+                    style="@style/increment3Buttons"
+                    android:onClick="addPurrForAlice"
+                    android:text="@string/Noise3" />
+
+                <Button
+                    style="@style/decrementButtons"
+                    android:onClick="pointsReducedForAlice"
+                    android:text="@string/Noise4" />
+
+            <!--Alice layout end-->
+            </LinearLayout>
+
+        <!--Score count layout end-->
+        </LinearLayout>
+
+        <!--RESET BUTTON-->
+        <Button
+            style="@style/resetButton"
+            android:layout_below="@+id/linearLayout"
+            android:layout_centerHorizontal="true"
+            android:onClick="resetScore"
+            android:text="@string/ResetButton" />
+
+    <!--General layout end-->
+    </RelativeLayout>
+
+</ScrollView>
