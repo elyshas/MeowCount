@@ -2,6 +2,7 @@
     <string name="app_name">Fuzzball Showdown</string>
     <string name="Cat1">Kyo</string>
     <string name="Cat2">Alice</string>
+    <string name="initialScore">0</string>
     <string name="Noise1">Squeek (+1)</string>
     <string name="Noise2">Meow (+1)</string>
     <string name="Noise3">Purr (+3)</string>

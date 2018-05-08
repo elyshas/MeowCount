@@ -10,7 +10,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <!--Layout for two Score Counts-->
         <LinearLayout
@@ -33,7 +33,7 @@
                 <TextView
                     style="@style/scores"
                     android:id="@+id/kyo_score"
-                    android:text="0" />
+                    android:text="@string/initialScore" />
 
                 <Button
                     style="@style/increment1Buttons"
@@ -53,12 +53,12 @@
             <!--Kyo layout end-->
             </LinearLayout>
 
-            <!--Centered Vertical Divider-->
+            <!--Centered Vertical Divider Line-->
             <View
                 android:layout_width="1dp"
                 android:layout_height="match_parent"
                 android:layout_marginTop="16dp"
-                android:background="#E1BEE7" />
+                android:background="@color/lightPurple" />
 
             <!--ALICE LAYOUT (right side)-->
             <LinearLayout
@@ -74,7 +74,7 @@
                 <TextView
                     android:id="@+id/alice_score"
                     style="@style/scores"
-                    android:text="0" />
+                    android:text="@string/initialScore" />
 
                 <Button
                     style="@style/increment1Buttons"
