@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!--Elysha Spector owns the rights to background image-->
+<!--Elysha Spector owns the rights to background image "meow_count_background"-->
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
@@ -12,14 +12,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <!--Layout for two Score Counts-->
+        <!--Layout for both Score Counts-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
             android:id="@+id/linearLayout">
 
-            <!--KYO LAYOUT (left side)-->
+            <!--KYO (CAT 1) LAYOUT (left side)-->
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -50,7 +50,7 @@
                     android:onClick="pointsReducedForKyo"
                     android:text="@string/Noise4" />
 
-            <!--Kyo layout end-->
+            <!--KYO (CAT 1) layout end-->
             </LinearLayout>
 
             <!--Centered Vertical Divider Line-->
@@ -60,7 +60,7 @@
                 android:layout_marginTop="16dp"
                 android:background="@color/lightPurple" />
 
-            <!--ALICE LAYOUT (right side)-->
+            <!--ALICE (CAT 2) LAYOUT (right side)-->
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -91,7 +91,7 @@
                     android:onClick="pointsReducedForAlice"
                     android:text="@string/Noise4" />
 
-            <!--Alice layout end-->
+            <!--ALICE (CAT 2) layout end-->
             </LinearLayout>
 
         <!--Score count layout end-->
@@ -101,7 +101,6 @@
         <Button
             style="@style/resetButton"
             android:layout_below="@+id/linearLayout"
-            android:layout_centerHorizontal="true"
             android:onClick="resetScore"
             android:text="@string/ResetButton" />
 
