@@ -14,10 +14,10 @@
 
         <!--Layout for both Score Counts-->
         <LinearLayout
+            android:id="@+id/linearLayout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:id="@+id/linearLayout">
+            android:orientation="horizontal">
 
             <!--KYO (CAT 1) LAYOUT (left side)-->
             <LinearLayout
@@ -31,8 +31,8 @@
                     android:text="@string/Cat1" />
 
                 <TextView
-                    style="@style/scores"
                     android:id="@+id/kyo_score"
+                    style="@style/scores"
                     android:text="@string/initialScore" />
 
                 <Button
@@ -50,7 +50,7 @@
                     android:onClick="pointsReducedForKyo"
                     android:text="@string/Noise4" />
 
-            <!--KYO (CAT 1) layout end-->
+                <!--KYO (CAT 1) layout end-->
             </LinearLayout>
 
             <!--Centered Vertical Divider Line-->
@@ -78,7 +78,7 @@
 
                 <Button
                     style="@style/increment1Buttons"
-                    android:onClick="addMeowForAlice"
+                    android:onClick="addSqueekForAlice"
                     android:text="@string/Noise1" />
 
                 <Button
@@ -91,10 +91,10 @@
                     android:onClick="pointsReducedForAlice"
                     android:text="@string/Noise4" />
 
-            <!--ALICE (CAT 2) layout end-->
+                <!--ALICE (CAT 2) layout end-->
             </LinearLayout>
 
-        <!--Score count layout end-->
+            <!--Score count layout end-->
         </LinearLayout>
 
         <!--RESET BUTTON-->
@@ -104,7 +104,7 @@
             android:onClick="resetScore"
             android:text="@string/ResetButton" />
 
-    <!--General layout end-->
+        <!--General layout end-->
     </RelativeLayout>
 
 </ScrollView>

@@ -22,7 +22,8 @@ public class MainActivity extends AppCompatActivity {
         displayForAlice(scoreAlice);
     }
 
-    /****** SCORE COUNT FOR KYO (CAT 1) ******/
+    //SCORE COUNT FOR KYO (CAT 1)
+
     /***Adding 1 point to Cat 1 score count***/
     public void addMeowForKyo(View view) {
         scoreKyo = scoreKyo + 1;
@@ -38,15 +39,17 @@ public class MainActivity extends AppCompatActivity {
     /***Subtracting 2 points from Cat 1 score count***/
     public void pointsReducedForKyo(View view) {
         scoreKyo = scoreKyo - 2;
-        /***NOTE: Count cannot go below 0***/
-        if(scoreKyo<=0){
-            scoreKyo=0;
-        } displayForKyo(scoreKyo);
+        //NOTE: Count cannot go below 0
+        if (scoreKyo <= 0) {
+            scoreKyo = 0;
+        }
+        displayForKyo(scoreKyo);
     }
 
-    /****** SCORE COUNT FOR ALICE (CAT 2) ******/
+    //SCORE COUNT FOR ALICE (CAT 2)
+
     /***Adding 1 point to Cat 2 score count***/
-    public void addMeowForAlice(View view) {
+    public void addSqueekForAlice(View view) {
         scoreAlice = scoreAlice + 1;
         displayForAlice(scoreAlice);
     }
@@ -60,10 +63,11 @@ public class MainActivity extends AppCompatActivity {
     /***Subtracting 2 points from Cat 2 score count***/
     public void pointsReducedForAlice(View view) {
         scoreAlice = scoreAlice - 2;
-        /***NOTE: Count cannot go below 0***/
-        if(scoreAlice<=0){
-            scoreAlice=0;
-        } displayForAlice(scoreAlice);
+        //NOTE: Count cannot go below 0
+        if (scoreAlice <= 0) {
+            scoreAlice = 0;
+        }
+        displayForAlice(scoreAlice);
     }
 
     /***Resetting score count for CAT 1 & CAT 2 back to 0 points.***/

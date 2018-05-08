@@ -1,88 +1,88 @@
 <resources>
 
-<!-- Base application theme. -->
-<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-    <!-- Sets color of app bar -->
-    <item name="colorPrimary">@color/darkPurple</item>
-</style>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Sets color of app bar -->
+        <item name="colorPrimary">@color/darkPurple</item>
+    </style>
 
-<!-- Cat Titles style -->
-<style name="catName">
-    <item name="android:layout_width">match_parent</item>
-    <item name="android:layout_height">wrap_content</item>
-    <item name="android:gravity">center</item>
-    <item name="android:padding">12dp</item>
-    <item name="android:layout_marginTop">10dp</item>
-    <item name="android:textAllCaps">true</item>
-    <item name="android:fontFamily">@font/pressstart2p_regular</item>
-    <item name="android:textStyle">bold</item>
-    <item name="android:textColor">@color/white</item>
-    <item name="android:textSize">25sp</item>
-</style>
+    <!-- Cat Titles style -->
+    <style name="catName">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">@font/pressstart2p_regular</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">25sp</item>
+    </style>
 
-<!-- Score Counter style -->
-<style name="scores">
-    <item name="android:layout_width">match_parent</item>
-    <item name="android:layout_height">wrap_content</item>
-    <item name="android:layout_marginBottom">10dp</item>
-    <item name="android:gravity">center</item>
-    <item name="android:textStyle">bold</item>
-    <item name="android:textSize">45sp</item>
-    <item name="android:textColor">@color/darkPurple</item>
-    <item name="android:fontFamily">@font/pressstart2p_regular</item>
-    <item name="android:shadowColor">@color/lightPurple</item>
-    <item name="android:shadowDx">7</item>
-    <item name="android:shadowDy">11</item>
-    <item name="android:shadowRadius">8</item>
-</style>
+    <!-- Score Counter style -->
+    <style name="scores">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">45sp</item>
+        <item name="android:textColor">@color/darkPurple</item>
+        <item name="android:fontFamily">@font/pressstart2p_regular</item>
+        <item name="android:shadowColor">@color/lightPurple</item>
+        <item name="android:shadowDx">7</item>
+        <item name="android:shadowDy">11</item>
+        <item name="android:shadowRadius">8</item>
+    </style>
 
-<!-- Increment +1 Buttons style -->
-<style name="increment1Buttons">
-    <item name="android:layout_width">match_parent</item>
-    <item name="android:layout_height">wrap_content</item>
-    <item name="android:layout_marginRight">25dp</item>
-    <item name="android:layout_marginBottom">10dp</item>
-    <item name="android:layout_marginLeft">25dp</item>
-    <item name="android:backgroundTint">@color/lightPink</item>
-    <item name="android:textSize">16sp</item>
-    <item name="android:textColor">@color/white</item>
-</style>
+    <!-- Increment +1 Buttons style -->
+    <style name="increment1Buttons">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">25dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:backgroundTint">@color/lightPink</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
 
-<!-- Increment +3 Buttons style -->
-<style name="increment3Buttons">
-    <item name="android:layout_width">match_parent</item>
-    <item name="android:layout_height">wrap_content</item>
-    <item name="android:layout_marginRight">25dp</item>
-    <item name="android:layout_marginBottom">10dp</item>
-    <item name="android:layout_marginLeft">25dp</item>
-    <item name="android:backgroundTint">@color/mediumPink</item>
-    <item name="android:textSize">16sp</item>
-    <item name="android:textColor">@color/white</item>
-</style>
+    <!-- Increment +3 Buttons style -->
+    <style name="increment3Buttons">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">25dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:backgroundTint">@color/mediumPink</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
 
-<!-- Decrement Buttons style -->
-<style name="decrementButtons">
-    <item name="android:layout_width">match_parent</item>
-    <item name="android:layout_height">wrap_content</item>
-    <item name="android:layout_marginRight">25dp</item>
-    <item name="android:layout_marginLeft">25dp</item>
-    <item name="android:backgroundTint">@color/white</item>
-    <item name="android:textSize">16sp</item>
-    <item name="android:textColor">@color/mediumPink</item>
-</style>
+    <!-- Decrement Buttons style -->
+    <style name="decrementButtons">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">25dp</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/mediumPink</item>
+    </style>
 
-<!-- Reset Button style -->
-<style name="resetButton">
-    <item name="android:layout_width">wrap_content</item>
-    <item name="android:layout_height">wrap_content</item>
-    <item name="android:layout_alignParentBottom">true</item>
-    <item name="android:layout_centerHorizontal">true</item>
-    <item name="android:paddingLeft">25dp</item>
-    <item name="android:paddingRight">25dp</item>
-    <item name="android:layout_marginTop">23dp</item>
-    <item name="android:backgroundTint">@color/darkPurple</item>
-    <item name="android:textColor">@color/white</item>
-    <item name="android:textSize">20sp</item>
-</style>
+    <!-- Reset Button style -->
+    <style name="resetButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:paddingLeft">25dp</item>
+        <item name="android:paddingRight">25dp</item>
+        <item name="android:layout_marginTop">23dp</item>
+        <item name="android:backgroundTint">@color/darkPurple</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
 
 </resources>

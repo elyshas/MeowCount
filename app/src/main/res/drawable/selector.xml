@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--IN PROGRESS: TRYING TO FIGURE OUT BUTTON COLOR CHANGE WHEN CLICKED-->
+
+<!--TODO: Finish this button animation process when able, java code not started-->
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_pressed="true" android:color="@color/darkPurple"/>
-    <item android:state_focused="true" android:color="@color/lightPurple"/>
-    <item android:color="@color/lightPink"/>
+    <item android:color="@color/darkPurple" android:state_pressed="true" />
+    <item android:color="@color/lightPurple" android:state_focused="true" />
+    <item android:color="@color/lightPink" />
 </selector>
