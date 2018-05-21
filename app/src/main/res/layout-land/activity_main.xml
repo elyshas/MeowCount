@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <!--Layout for both Score Counts-->
+        <!--Layout for both Score Counts and reset button-->
         <LinearLayout
             android:id="@+id/linearLayout"
             android:layout_width="match_parent"
