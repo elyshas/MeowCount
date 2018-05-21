@@ -44,7 +44,6 @@
         <item name="android:layout_marginRight">25dp</item>
         <item name="android:layout_marginBottom">10dp</item>
         <item name="android:layout_marginLeft">25dp</item>
-        <item name="android:backgroundTint">@color/lightPink</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/white</item>
     </style>
@@ -56,7 +55,6 @@
         <item name="android:layout_marginRight">25dp</item>
         <item name="android:layout_marginBottom">10dp</item>
         <item name="android:layout_marginLeft">25dp</item>
-        <item name="android:backgroundTint">@color/mediumPink</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/white</item>
     </style>
@@ -67,7 +65,6 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginRight">25dp</item>
         <item name="android:layout_marginLeft">25dp</item>
-        <item name="android:backgroundTint">@color/white</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/mediumPink</item>
     </style>
@@ -81,7 +78,6 @@
         <item name="android:paddingLeft">25dp</item>
         <item name="android:paddingRight">25dp</item>
         <item name="android:layout_marginTop">23dp</item>
-        <item name="android:backgroundTint">@color/darkPurple</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:textSize">20sp</item>
     </style>
@@ -95,7 +91,6 @@
         <item name="android:layout_marginRight">30dp</item>
         <item name="android:layout_marginBottom">10dp</item>
         <item name="android:layout_marginLeft">30dp</item>
-        <item name="android:backgroundTint">@color/lightPink</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/white</item>
     </style>
@@ -107,7 +102,6 @@
         <item name="android:layout_marginRight">30dp</item>
         <item name="android:layout_marginBottom">10dp</item>
         <item name="android:layout_marginLeft">30dp</item>
-        <item name="android:backgroundTint">@color/mediumPink</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/white</item>
     </style>
@@ -118,7 +112,6 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginRight">30dp</item>
         <item name="android:layout_marginLeft">30dp</item>
-        <item name="android:backgroundTint">@color/white</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/mediumPink</item>
     </style>
@@ -132,7 +125,6 @@
         <item name="android:layout_marginLeft">25dp</item>
         <item name="android:paddingLeft">20dp</item>
         <item name="android:paddingRight">20dp</item>
-        <item name="android:backgroundTint">@color/darkPurple</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:textSize">20sp</item>
     </style>

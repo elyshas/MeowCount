@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<!--TODO: Finish this button animation process when able, java code not started-->
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:color="@color/darkPurple" android:state_pressed="true" />
-    <item android:color="@color/lightPurple" android:state_focused="true" />
-    <item android:color="@color/lightPink" />
-</selector>

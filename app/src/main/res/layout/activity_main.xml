@@ -37,16 +37,19 @@
 
                 <Button
                     style="@style/increment1Buttons"
+                    android:background="@drawable/selector_plus_one"
                     android:onClick="addMeowForKyo"
                     android:text="@string/Noise2" />
 
                 <Button
                     style="@style/increment3Buttons"
+                    android:background="@drawable/selector_plus_three"
                     android:onClick="addPurrForKyo"
                     android:text="@string/Noise3" />
 
                 <Button
                     style="@style/decrementButtons"
+                    android:background="@drawable/selector_minus_two"
                     android:onClick="pointsReducedForKyo"
                     android:text="@string/Noise4" />
 
@@ -78,16 +81,19 @@
 
                 <Button
                     style="@style/increment1Buttons"
+                    android:background="@drawable/selector_plus_one"
                     android:onClick="addSqueekForAlice"
                     android:text="@string/Noise1" />
 
                 <Button
                     style="@style/increment3Buttons"
+                    android:background="@drawable/selector_plus_three"
                     android:onClick="addPurrForAlice"
                     android:text="@string/Noise3" />
 
                 <Button
                     style="@style/decrementButtons"
+                    android:background="@drawable/selector_minus_two"
                     android:onClick="pointsReducedForAlice"
                     android:text="@string/Noise4" />
 
@@ -100,6 +106,7 @@
         <!--RESET BUTTON-->
         <Button
             style="@style/resetButton"
+            android:background="@drawable/selector_reset"
             android:layout_below="@+id/linearLayout"
             android:onClick="resetScore"
             android:text="@string/ResetButton" />
